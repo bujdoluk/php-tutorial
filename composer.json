@@ -1,6 +1,24 @@
 {
+    "name": "api/php-tutorial",
+    "description": "Making basic php app structure without framework",
+    "keywords": [
+        "php",
+        "tutorial"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukáš Bujdoš",
+            "email": "lukas.bujdos@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
     "require": {
-        "slim/slim": "4.*",
-        "slim/psr7": "^1.7"
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
     }
 }
